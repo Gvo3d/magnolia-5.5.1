@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>info.magnolia.bundle</groupId>
+    <artifactId>magnolia-packs-community-parent</artifactId>
+    <version>5.5.1</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <groupId>info.magnolia.bundle</groupId>
+  <artifactId>magnolia-community-demo-webapp</artifactId>
+  <packaging>war</packaging>
+  <name>magnolia-community-demo-webapp</name>
+  <description>Magnolia webapp pre-bundled with the DAM module and Magnolia Templating Essentials.</description>
+  <dependencies>
+    <dependency>
+      <groupId>info.magnolia.bundle</groupId>
+      <artifactId>magnolia-community-webapp</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.bundle</groupId>
+      <artifactId>magnolia-community-webapp</artifactId>
+      <type>pom</type>
+    </dependency>
+
+    <!-- Version managed in ui-project (which is indirectly imported) -->
+    <dependency>
+      <groupId>info.magnolia.sample</groupId>
+      <artifactId>magnolia-sample-app</artifactId>
+    </dependency>
+
+    <!-- This dependency is not required anymore, but we still maintain it in order to be backwards-compatible.
+    The module used to be brought in transitively by mte/stk.
+    This dependency will be removed in future versions. -->
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-module-inplace-templating</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-demo</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-tours</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.gmaven</groupId>
+        <artifactId>gmaven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>check-for-duplicates</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>execute</goal>
+            </goals>
+            <configuration>
+              <providerSelection>1.5</providerSelection>
+              <properties>
+                <libdir>${project.build.directory}/${project.build.finalName}/WEB-INF/lib</libdir>
+              </properties>
+              <source>${project.basedir}/test/check_for_duplicates.groovy</source>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

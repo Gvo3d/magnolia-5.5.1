@@ -1,0 +1,439 @@
+INFO   info.magnolia.cms.beans.config.ConfigLoader 30.01.2017 23:16:48 -- JAAS config file set by parent container or some other application
+INFO   info.magnolia.cms.beans.config.ConfigLoader 30.01.2017 23:16:48 -- Config in use C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaAuthor\WEB-INF\config\jaas.config
+INFO   info.magnolia.cms.beans.config.ConfigLoader 30.01.2017 23:16:48 -- Please make sure JAAS config has all necessary modules (refer config/jaas.config) configured
+INFO   info.magnolia.init.MagnoliaServletContextListener 30.01.2017 23:16:48 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/magnoliaPublic/magnolia.properties][ServletContextPropertySource from WEB-INF/config/magnoliaPublic/magnolia.properties][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, inplace-templating, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, sample-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, app-tutorial, mte, public-user-registration, forum, mtk, rssaggregator, categorization, commenting, lang-da, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, travel-demo, tours, lang-ko, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 30.01.2017 23:16:48 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:16:48 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:16:48 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:48 -- Loading repository at C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic\repositories\magnolia (config file: C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic\WEB-INF\config\repo-conf\jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:57 -- Registering prefix [mgnl] with URI http://www.magnolia.info/jcr/mgnl
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:57 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}metaData on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}lastModified on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}activatable on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}renderable on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}created on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}versionable on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}deleted on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}content on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:58 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}contentNode on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}folder on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}resource on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}reserve on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}page on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}area on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}component on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}user on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}role on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}group on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:16:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}hasVersion on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:17:02 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:17:02 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:17:02 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 30.01.2017 23:17:06 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 30.01.2017 23:17:10 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 30.01.2017 23:17:10 -- /server/auditLogging does not exist, will return a new instance of class info.magnolia.audit.AuditLoggingManager.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 30.01.2017 23:17:13 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 30.01.2017 23:17:13 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:17:13 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:17:13 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:17:13 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 30.01.2017 23:17:13 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 30.01.2017 23:17:13 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 30.01.2017 23:17:13 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 30.01.2017 23:17:13 -- Configuration loaded (took 24 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 30.01.2017 23:17:13 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:17:13 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:17:13 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:17:58 -- Loading workspace resources (logical name resources).
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:17:59 -- Loading workspace dms (logical name dms).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:17:59 -- Custom node types registered using /mgnl-nodetypes/magnolia-dam-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:17:59 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}asset on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:02 -- Loading workspace dam (logical name dam).
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:03 -- Loading workspace imaging (logical name imaging).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:04 -- Custom node types registered using /mgnl-nodetypes/tasks-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:04 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}task on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:04 -- Loading workspace tasks (logical name tasks).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:06 -- Custom node types registered using /mgnl-nodetypes/magnolia-message-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:06 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}systemMessage on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:07 -- Loading workspace messages (logical name messages).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:07 -- Custom node types registered using /mgnl-nodetypes/magnolia-favorite-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:07 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}favorite on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:08 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}favoriteGroup on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:08 -- Loading workspace profiles (logical name profiles).
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:09 -- Loading workspace scripts (logical name scripts).
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:10 -- Loading workspace templates (logical name templates).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:11 -- Custom node types registered using /mgnl-nodetypes/magnolia-contacts-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:11 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}contact on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:11 -- Loading workspace contacts (logical name contacts).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:12 -- Custom node types registered using /mgnl-nodetypes/magnolia-google-sitemap-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:12 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}googleSiteMap on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:13 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}siteMap on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:13 -- Loading workspace googleSitemaps (logical name googleSitemaps).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:16 -- Custom node types registered using /mgnl-nodetypes/app-tutorial-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:16 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}product on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:16 -- Loading workspace products (logical name products).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:19 -- Custom node types registered using /mgnl-nodetypes/magnolia-forum-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:19 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}messageProperties on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:19 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}message on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:19 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}thread on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:19 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}forum on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:20 -- Loading workspace forum (logical name forum).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:24 -- Custom node types registered using /mgnl-nodetypes/magnolia-rssaggregator-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:24 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}rssAggregator on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:25 -- Loading workspace rss (logical name rss).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:26 -- Custom node types registered using /mgnl-nodetypes/magnolia-category-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:26 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}category on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:27 -- Loading workspace category (logical name category).
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:30 -- Custom node types registered using /mgnl-nodetypes/magnolia-tour-nodetypes.xml
+INFO   info.magnolia.jackrabbit.ProviderImpl 30.01.2017 23:18:30 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}item on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 30.01.2017 23:18:30 -- Loading workspace tours (logical name tours).
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:34 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:34 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:36 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:36 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:36 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:36 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:37 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:37 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:37 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:37 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:37 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:37 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:38 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:38 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:38 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:39 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:39 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:39 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:39 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 30.01.2017 23:18:40 -- Loading i18n configuration - /server/i18n/system
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 30.01.2017 23:18:46 -- Re-loaded info.magnolia.cms.security.SecuritySupport from /server/security
+INFO   info.magnolia.cms.beans.config.MIMEMapping 30.01.2017 23:18:51 -- Reloading MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.module.InstallContextImpl 30.01.2017 23:18:52 -- [13/677 tasks - Magnolia Core Module (version 5.5.1)]> Please set the config:/server/defaultBaseUrl property to a full URL to be used when generating absolute URLs for external systems.
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 30.01.2017 23:19:00 -- Re-loaded info.magnolia.audit.AuditLoggingManager from /server/auditLogging
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 30.01.2017 23:19:12 -- Re-loaded info.magnolia.freemarker.FreemarkerConfig from /server/rendering/freemarker
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:19:47 -- Deleted already existing node for bootstrapping: /modules/rendering/renderers/jsp/contextAttributes
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:19:48 -- Deleted already existing node for bootstrapping: /modules/rendering/renderers/freemarker/contextAttributes
+INFO   info.magnolia.module.InstallContextImpl 30.01.2017 23:19:58 -- [175/677 tasks - Magnolia RESTEasy client module (version 1.1.1)]> Module '/modules/standard-templating-kit' is not installed. Context attribute is not installed.
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 30.01.2017 23:20:03 -- Re-loaded info.magnolia.freemarker.FreemarkerConfig from /server/rendering/freemarker
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:20:12 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/commands
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:20:12 -- Deleted already existing node for bootstrapping: /server/filters/uriSecurity/bypasses/login
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:20:13 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/commands/default/delete
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:20:16 -- Deleted already existing node for bootstrapping: /server/filters/securityCallback/clientCallbacks/form
+WARN   info.magnolia.module.delta.PartialBootstrapTask 30.01.2017 23:20:18 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/messageViews/longRunning
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:20:58 -- Deleted already existing node for bootstrapping: /modules/ui-admincentral/apps/configuration/subApps/browser/actions/saveItemProperty
+WARN   info.magnolia.contacts.setup.RemovePermissionsNodeTask 30.01.2017 23:21:10 -- Could not find permissions node at path /modules/contacts/apps/contacts/permissions, the permissions node will not be removed
+INFO   info.magnolia.cms.beans.config.MIMEMapping 30.01.2017 23:21:15 -- Reloading MIMEMapping from /server/MIMEMapping
+INFO   info.magnolia.setup.nodetype.AbstractNodeTypeRegistrationTask 30.01.2017 23:21:34 -- Unregistered the following NodeTypes '[mgnl:page]'.
+INFO   info.magnolia.setup.nodetype.AbstractNodeTypeRegistrationTask 30.01.2017 23:21:34 -- In order to unregister 'mgnl:page', the following depending node types have been unregistered first: [].
+INFO   info.magnolia.setup.nodetype.AbstractNodeTypeRegistrationTask 30.01.2017 23:21:34 -- Registering 'mgnl:page' and the following depending nodeTypes: []
+INFO   info.magnolia.setup.nodetype.AbstractNodeTypeRegistrationTask 30.01.2017 23:21:35 -- Unregistered the following NodeTypes '[mgnl:siteMap]'.
+INFO   info.magnolia.setup.nodetype.AbstractNodeTypeRegistrationTask 30.01.2017 23:21:35 -- In order to unregister 'mgnl:siteMap', the following depending node types have been unregistered first: [].
+INFO   info.magnolia.setup.nodetype.AbstractNodeTypeRegistrationTask 30.01.2017 23:21:35 -- Registering 'mgnl:siteMap' and the following depending nodeTypes: []
+INFO   info.magnolia.setup.nodetype.AbstractNodeTypeRegistrationTask 30.01.2017 23:21:35 -- No NodeType defined to unregister for the following workspace 'googleSitemaps'
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 30.01.2017 23:21:52 -- Re-loaded info.magnolia.cms.security.SecuritySupport from /server/security
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:22:23 -- Deleted already existing node for bootstrapping: /modules/rssaggregator/config/feedGenerators/category
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:22:28 -- Deleted already existing node for bootstrapping: /modules/mail/config/templatesConfiguration/pageCommentsNotification
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:23:10 -- Deleted already existing node for bootstrapping: /server/filters/securityCallback/clientCallbacks/travel-demo-pur
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:23:10 -- Deleted already existing node for bootstrapping: /modules/public-user-registration/config/configurations/travel
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:23:10 -- Deleted already existing node for bootstrapping: /travel-demo-pur
+WARN   info.magnolia.importexport.BootstrapUtil 30.01.2017 23:23:11 -- Deleted already existing node for bootstrapping: /travel-demo-pur
+WARN   info.magnolia.demo.travel.setup.SetupRoleBasedAccessPermissionsTask 30.01.2017 23:23:11 -- Path [modules/ui-admincentral/config/appLauncherLayout/groups/target] could not be found. No role permissions were set for it.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Trying to initialize repositories from: 
+    C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic\WEB-INF\bootstrap\public
+    C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic\WEB-INF\bootstrap\common
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [dam] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [forum] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [contacts] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [usergroups] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [products] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [templates] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [magnolia-mgnlSystem] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [scripts] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [tours] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [website] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [magnolia-mgnlVersion] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [userroles] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:49 -- Repository [googleSitemaps] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [profiles] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [users] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [tasks] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [imaging] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [category] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [rss] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [default] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [resources] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [messages] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [config] has been initialized.
+INFO   info.magnolia.importexport.Bootstrapper 30.01.2017 23:23:50 -- Repository [dms] has been initialized.
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:04 -- Initializing module core
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:04 -- Initializing module dam
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:05 -- Starting module dam
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:05 -- Initializing module freemarker-support
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:05 -- Initializing module lang-el
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:05 -- Initializing module activation
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Initializing module categorization-support
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Initializing module ce-product-descriptor
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Initializing module imaging-support
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Initializing module resource-loader
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Initializing module rest-client
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Starting module rest-client
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Initializing module rest-integration
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:06 -- Starting module rest-integration
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:07 -- Initializing module cache
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:10 -- Starting module cache
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Initializing module config
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Starting module config
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Initializing module i18n
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Initializing module rest-services
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Initializing module dam-jcr
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Initializing module ehcache
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Initializing module rendering
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:12 -- Starting module rendering
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:30:17 -- Setting up YamlConfigurationSource to load Renderer definitions from resources
+INFO   info.magnolia.dirwatch.DirectoryWatcherService 30.01.2017 23:30:18 -- Starting DirectoryWatcher
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:30:20 -- Setting up YamlConfigurationSource to load TemplateDefinition definitions from resources
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:22 -- Registered definition from YAML file [/mtk/templates/components/html.yaml]: [template] definition [html] with reference id: [mtk:components/html] from module [mtk] at [components/html]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:22 -- Registered definition from YAML file [/mtk/templates/components/image.yaml]: [template] definition [image] with reference id: [mtk:components/image] from module [mtk] at [components/image]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:23 -- Registered definition from YAML file [/mtk/templates/components/link.yaml]: [template] definition [link] with reference id: [mtk:components/link] from module [mtk] at [components/link]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:23 -- Registered definition from YAML file [/mtk/templates/components/linkList.yaml]: [template] definition [linkList] with reference id: [mtk:components/linkList] from module [mtk] at [components/linkList]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:23 -- Registered definition from YAML file [/mtk/templates/components/pageIntro.yaml]: [template] definition [pageIntro] with reference id: [mtk:components/pageIntro] from module [mtk] at [components/pageIntro]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:23 -- Registered definition from YAML file [/mtk/templates/components/teaser.yaml]: [template] definition [teaser] with reference id: [mtk:components/teaser] from module [mtk] at [components/teaser]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:23 -- Registered definition from YAML file [/mtk/templates/components/textImage.yaml]: [template] definition [textImage] with reference id: [mtk:components/textImage] from module [mtk] at [components/textImage]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:24 -- Registered definition from YAML file [/mtk/templates/components/video.yaml]: [template] definition [video] with reference id: [mtk:components/video] from module [mtk] at [components/video]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:24 -- Registered definition from YAML file [/mtk/templates/pages/basic.yaml]: [template] definition [basic] with reference id: [mtk:pages/basic] from module [mtk] at [pages/basic]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourCarousel.yaml]: [template] definition [tourCarousel] with reference id: [tours:components/tourCarousel] from module [tours] at [components/tourCarousel]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourDetail.yaml]: [template] definition [tourDetail] with reference id: [tours:components/tourDetail] from module [tours] at [components/tourDetail]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourDetailRelatedTours.yaml]: [template] definition [tourDetailRelatedTours] with reference id: [tours:components/tourDetailRelatedTours] from module [tours] at [components/tourDetailRelatedTours]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourList.yaml]: [template] definition [tourList] with reference id: [tours:components/tourList] from module [tours] at [components/tourList]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourListByDestination.yaml]: [template] definition [tourListByDestination] with reference id: [tours:components/tourListByDestination] from module [tours] at [components/tourListByDestination]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourListFeaturedRow.yaml]: [template] definition [tourListFeaturedRow] with reference id: [tours:components/tourListFeaturedRow] from module [tours] at [components/tourListFeaturedRow]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourListFeaturedRowByDestination.yaml]: [template] definition [tourListFeaturedRowByDestination] with reference id: [tours:components/tourListFeaturedRowByDestination] from module [tours] at [components/tourListFeaturedRowByDestination]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourTypeOverviewHeader.yaml]: [template] definition [tourTypeOverviewHeader] with reference id: [tours:components/tourTypeOverviewHeader] from module [tours] at [components/tourTypeOverviewHeader]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/components/tourTypeTeaserRow.yaml]: [template] definition [tourTypeTeaserRow] with reference id: [tours:components/tourTypeTeaserRow] from module [tours] at [components/tourTypeTeaserRow]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/pages/categoryOverview.yaml]: [template] definition [categoryOverview] with reference id: [tours:pages/categoryOverview] from module [tours] at [pages/categoryOverview]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/pages/destinationCatOverview.yaml]: [template] definition [destinationCatOverview] with reference id: [tours:pages/destinationCatOverview] from module [tours] at [pages/destinationCatOverview]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/tours/templates/pages/tour.yaml]: [template] definition [tour] with reference id: [tours:pages/tour] from module [tours] at [pages/tour]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:25 -- Registered definition from YAML file [/travel-demo/templates/components/carousel.yaml]: [template] definition [carousel] with reference id: [travel-demo:components/carousel] from module [travel-demo] at [components/carousel]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/columnLayout.yaml]: [template] definition [columnLayout] with reference id: [travel-demo:components/columnLayout] from module [travel-demo] at [components/columnLayout]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/form.yaml]: [template] definition [form] with reference id: [travel-demo:components/form] from module [travel-demo] at [components/form]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/jumbotron.yaml]: [template] definition [jumbotron] with reference id: [travel-demo:components/jumbotron] from module [travel-demo] at [components/jumbotron]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/link.yaml]: [template] definition [link] with reference id: [travel-demo:components/link] from module [travel-demo] at [components/link]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/linkList.yaml]: [template] definition [linkList] with reference id: [travel-demo:components/linkList] from module [travel-demo] at [components/linkList]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/searchResults.yaml]: [template] definition [searchResults] with reference id: [travel-demo:components/searchResults] from module [travel-demo] at [components/searchResults]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/social.yaml]: [template] definition [social] with reference id: [travel-demo:components/social] from module [travel-demo] at [components/social]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/teaser.yaml]: [template] definition [teaser] with reference id: [travel-demo:components/teaser] from module [travel-demo] at [components/teaser]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/components/textImage.yaml]: [template] definition [textImage] with reference id: [travel-demo:components/textImage] from module [travel-demo] at [components/textImage]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/pages/aboutDemo.yaml]: [template] definition [aboutDemo] with reference id: [travel-demo:pages/aboutDemo] from module [travel-demo] at [pages/aboutDemo]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:26 -- Registered definition from YAML file [/travel-demo/templates/pages/home.yaml]: [template] definition [home] with reference id: [travel-demo:pages/home] from module [travel-demo] at [pages/home]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:27 -- Registered definition from YAML file [/travel-demo/templates/pages/prototype.yaml]: [template] definition [prototype] with reference id: [travel-demo:pages/prototype] from module [travel-demo] at [pages/prototype]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:27 -- Registered definition from YAML file [/travel-demo/templates/pages/pur.yaml]: [template] definition [pur] with reference id: [travel-demo:pages/pur] from module [travel-demo] at [pages/pur]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:27 -- Registered definition from YAML file [/travel-demo/templates/pages/searchResultPage.yaml]: [template] definition [searchResultPage] with reference id: [travel-demo:pages/searchResultPage] from module [travel-demo] at [pages/searchResultPage]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:30:27 -- Registered definition from YAML file [/travel-demo/templates/pages/standard.yaml]: [template] definition [standard] with reference id: [travel-demo:pages/standard] from module [travel-demo] at [pages/standard]
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:30:27 -- File based definition decorator resolved from [/tours/decorations/travel-demo/templates/pages/home.areas.main.availableComponents.yaml] and will be added to [templates] registry
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:27 -- Initializing module ui-framework
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:30:28 -- Starting module ui-framework
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:31:02 -- Setting up YamlConfigurationSource to load FormDialogDefinition definitions from resources
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:02 -- Registered definition from YAML file [/mte/dialogs/pages/pageProperties.yaml]: [dialog] definition [pageProperties] with reference id: [mte:pages/pageProperties] from module [mte] at [pages/pageProperties]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:02 -- Registered definition from YAML file [/mtk/dialogs/components/html.yaml]: [dialog] definition [html] with reference id: [mtk:components/html] from module [mtk] at [components/html]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:02 -- Registered definition from YAML file [/mtk/dialogs/components/image.yaml]: [dialog] definition [image] with reference id: [mtk:components/image] from module [mtk] at [components/image]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:02 -- Registered definition from YAML file [/mtk/dialogs/components/link.yaml]: [dialog] definition [link] with reference id: [mtk:components/link] from module [mtk] at [components/link]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:02 -- Registered definition from YAML file [/mtk/dialogs/components/linkList.yaml]: [dialog] definition [linkList] with reference id: [mtk:components/linkList] from module [mtk] at [components/linkList]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:02 -- Registered definition from YAML file [/mtk/dialogs/components/linkSwitchableField.yaml]: [dialog] definition [linkSwitchableField] with reference id: [mtk:components/linkSwitchableField] from module [mtk] at [components/linkSwitchableField]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/mtk/dialogs/components/teaser.yaml]: [dialog] definition [teaser] with reference id: [mtk:components/teaser] from module [mtk] at [components/teaser]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/mtk/dialogs/components/textImage.yaml]: [dialog] definition [textImage] with reference id: [mtk:components/textImage] from module [mtk] at [components/textImage]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/mtk/dialogs/components/video.yaml]: [dialog] definition [video] with reference id: [mtk:components/video] from module [mtk] at [components/video]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/mtk/dialogs/pages/basic.yaml]: [dialog] definition [basic] with reference id: [mtk:pages/basic] from module [mtk] at [pages/basic]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/tours/dialogs/components/tourCarousel.yaml]: [dialog] definition [tourCarousel] with reference id: [tours:components/tourCarousel] from module [tours] at [components/tourCarousel]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/tours/dialogs/components/tourList.yaml]: [dialog] definition [tourList] with reference id: [tours:components/tourList] from module [tours] at [components/tourList]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/tours/dialogs/components/tourTypeTeaserRow.yaml]: [dialog] definition [tourTypeTeaserRow] with reference id: [tours:components/tourTypeTeaserRow] from module [tours] at [components/tourTypeTeaserRow]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:03 -- Registered definition from YAML file [/travel-demo/dialogs/components/carousel.yaml]: [dialog] definition [carousel] with reference id: [travel-demo:components/carousel] from module [travel-demo] at [components/carousel]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:04 -- Registered definition from YAML file [/travel-demo/dialogs/components/columnLayout.yaml]: [dialog] definition [columnLayout] with reference id: [travel-demo:components/columnLayout] from module [travel-demo] at [components/columnLayout]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:05 -- Registered definition from YAML file [/travel-demo/dialogs/components/link.yaml]: [dialog] definition [link] with reference id: [travel-demo:components/link] from module [travel-demo] at [components/link]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:05 -- Registered definition from YAML file [/travel-demo/dialogs/components/searchResults.yaml]: [dialog] definition [searchResults] with reference id: [travel-demo:components/searchResults] from module [travel-demo] at [components/searchResults]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:05 -- Registered definition from YAML file [/travel-demo/dialogs/components/social.yaml]: [dialog] definition [social] with reference id: [travel-demo:components/social] from module [travel-demo] at [components/social]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:05 -- Registered definition from YAML file [/travel-demo/dialogs/components/teaser.yaml]: [dialog] definition [teaser] with reference id: [travel-demo:components/teaser] from module [travel-demo] at [components/teaser]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:05 -- Registered definition from YAML file [/travel-demo/dialogs/components/textImage.yaml]: [dialog] definition [textImage] with reference id: [travel-demo:components/textImage] from module [travel-demo] at [components/textImage]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:05 -- Registered definition from YAML file [/travel-demo/dialogs/pages/pageProperties.yaml]: [dialog] definition [pageProperties] with reference id: [travel-demo:pages/pageProperties] from module [travel-demo] at [pages/pageProperties]
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:31:06 -- Setting up YamlConfigurationSource to load AppDescriptor definitions from resources
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:06 -- Registered definition from YAML file [/app-tutorial/apps/products.yaml]: [app] definition [products] with reference id: [products] from module [app-tutorial] at [products]
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:07 -- Registered definition from YAML file [/definitions-app/apps/definitions-app.yaml]: [app] definition [definitions-app] with reference id: [definitions-app] from module [definitions-app] at [definitions-app]
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:31:07 -- Setting up YamlConfigurationSource to load FieldTypeDefinition definitions from resources
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:08 -- Initializing module appswitcher
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:08 -- Initializing module imaging
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:08 -- Starting module imaging
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:09 -- Initializing module resteasy-client
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:09 -- Initializing module scheduler
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:10 -- Starting module scheduler
+INFO   info.magnolia.module.scheduler.SchedulerModule 30.01.2017 23:31:10 -- Job cleanTempFiles added [0 0 0/12 1/1 * ? *]. Will fire first time at Tue Jan 31 00:00:00 EET 2017
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:10 -- Initializing module templating
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:10 -- Initializing module ui-mediaeditor
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:10 -- Starting module ui-mediaeditor
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:31:11 -- Setting up YamlConfigurationSource to load MediaEditorDefinition definitions from resources
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:11 -- Initializing module resources
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:11 -- Initializing module task-management
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:11 -- Starting module task-management
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:12 -- Initializing module templating-jsp
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:12 -- Initializing module ui-admincentral
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:13 -- Starting module ui-admincentral
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:31:13 -- Setting up YamlConfigurationSource to load ItemViewDefinition definitions from resources
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:14 -- Initializing module about-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:14 -- Initializing module cache-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:14 -- Initializing module groovy
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:14 -- Initializing module inplace-templating
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:14 -- Initializing module log-tools
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:14 -- Initializing module magnolia-resources-templating
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:14 -- Initializing module mail
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Starting module mail
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Initializing module messages-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Initializing module pages
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Initializing module resources-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Initializing module sample-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Initializing module security-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Initializing module site
+WARN   info.magnolia.jcr.node2bean.impl.Node2BeanTransformerImpl 30.01.2017 23:31:15 -- Will use deprecated add method [addLocale] to populate [locales] in bean class [info.magnolia.cms.i18n.DefaultI18nContentSupport].
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:15 -- Starting module site
+INFO   info.magnolia.config.source.yaml.AbstractFileResourceConfigurationSource 30.01.2017 23:31:15 -- Setting up YamlConfigurationSource to load Theme definitions from resources
+INFO   info.magnolia.config.source.yaml.YamlConfigurationSource 30.01.2017 23:31:15 -- Registered definition from YAML file [/travel-demo/themes/travel-demo-theme.yaml]: [theme] definition [travel-demo-theme] with reference id: [travel-demo-theme] from module [travel-demo] at [travel-demo-theme]
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module ui-contentapp
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Starting module ui-contentapp
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module cache-browser-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module contacts
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module dam-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module dam-imaging
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module dam-templating
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module definitions-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module form
+WARN   info.magnolia.jcr.node2bean.impl.Node2BeanTransformerImpl 30.01.2017 23:31:16 -- Will use deprecated add method [addValidators] to populate [validators] in bean class [info.magnolia.module.form.FormModule].
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module google-sitemap
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:16 -- Initializing module jcr-browser-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module jcr-tools
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module mte-imaging
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module site-app
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module app-tutorial
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module mte
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module public-user-registration
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module forum
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module mtk
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Initializing module rssaggregator
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:17 -- Starting module rssaggregator
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module categorization
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Starting module categorization
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module commenting
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-da
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-ar
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-cs
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-de
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-es
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-fi
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-fr
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-he
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-hr
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-hu
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-id
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-it
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-ja
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-nl
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-no
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-pl
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-pt
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-pt_BR
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-ru
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-sk
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-sq
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-sv
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-tr
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-zh_CN
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-zh_TW
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module travel-demo
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module tours
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module lang-ko
+INFO   info.magnolia.module.ModuleManagerImpl 30.01.2017 23:31:18 -- Initializing module webapp
+INFO   info.magnolia.i18nsystem.DefaultMessageBundlesLoader 30.01.2017 23:31:40 -- 
+------------------------------------
+Duplicated keys found while loading message bundles from ./mgnl-i18n :
+------------------------------------
+Number of duplicates based on key pattern <key>_<locale>_<bundle-url>: 20
+Number of duplicates based on key pattern <key>_<locale>: 20
+Number of duplicates based on key pattern <key>: 15
+To get more details concerning the keys, raise the log level to 'DEBUG' for info.magnolia.i18nsystem.DefaultMessageBundlesLoader.
+If you encounter a large number of duplicates, it's possible that you are running in a development environment where you have multiple copies of the web-apps in the overlays folder of your web-app.
+URLs of the affected files creating duplicate entries:
+LayeredResource{path='/mgnl-i18n/standard-templating-kit/app-stkTemplateDefsApp-messages_de.properties', layeredResources=[ClasspathResource{origin=classpath,path=/mgnl-i18n/standard-templating-kit/app-stkTemplateDefsApp-messages_de.properties,file}]}
+LayeredResource{path='/mgnl-i18n/ui-admincentral-messages_en.properties', layeredResources=[ClasspathResource{origin=classpath,path=/mgnl-i18n/ui-admincentral-messages_en.properties,file}]}
+LayeredResource{path='/mgnl-i18n/ui-admincentral/shellapp-app-launcher-messages_ja.properties', layeredResources=[ClasspathResource{origin=classpath,path=/mgnl-i18n/ui-admincentral/shellapp-app-launcher-messages_ja.properties,file}]}
+LayeredResource{path='/mgnl-i18n/ui-admincentral/ui-admincentral-messages_ko.properties', layeredResources=[ClasspathResource{origin=classpath,path=/mgnl-i18n/ui-admincentral/ui-admincentral-messages_ko.properties,file}]}
+LayeredResource{path='/mgnl-i18n/workflow/workflow-messages_de.properties', layeredResources=[ClasspathResource{origin=classpath,path=/mgnl-i18n/workflow/workflow-messages_de.properties,file}]}
+LayeredResource{path='/mgnl-i18n/workflow/workflow-messages_ko.properties', layeredResources=[ClasspathResource{origin=classpath,path=/mgnl-i18n/workflow/workflow-messages_ko.properties,file}]}
+LayeredResource{path='/mgnl-i18n/workflow/workflow-messages_zh_CN.properties', layeredResources=[ClasspathResource{origin=classpath,path=/mgnl-i18n/workflow/workflow-messages_zh_CN.properties,file}]}
+LayeredResource{path='/travel-demo-multisite/i18n/module-travel-demo-multisite-messages_ko.properties', layeredResources=[ClasspathResource{origin=classpath,path=/travel-demo-multisite/i18n/module-travel-demo-multisite-messages_ko.properties,file}]}
+LayeredResource{path='/travel-demo/i18n/module-travel-demo-messages_en.properties', layeredResources=[ClasspathResource{origin=classpath,path=/travel-demo/i18n/module-travel-demo-messages_en.properties,file}]}
+LayeredResource{path='/travel-demo/i18n/module-travel-demo-messages_ko.properties', layeredResources=[ClasspathResource{origin=classpath,path=/travel-demo/i18n/module-travel-demo-messages_ko.properties,file}]}
+------------------------------------
+INFO   info.magnolia.i18nsystem.TranslationServiceImpl 30.01.2017 23:31:40 -- Starting monitoring of info.magnolia.resourceloader.layered.LayeredResourceOrigin@66b31ac3 to load translation files
+WARN   info.magnolia.cms.util.WorkspaceObservingManager 30.01.2017 23:31:40 -- A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:300), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:89), the full stracktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+WARN   info.magnolia.cms.util.DeprecationUtil 30.01.2017 23:31:40 -- A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:300), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:89), the full stracktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Catalog [default] registered: [info.magnolia.commands.MgnlCatalog: activate, deactivate]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Catalog [versioned] registered: [info.magnolia.commands.MgnlCatalog: activate, deactivate]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Catalog [cache] registered: [info.magnolia.commands.MgnlCatalog: flushNamedCache, flushByUUID, flushAll]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [importZip] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [cleanTempFiles] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Catalog [resources] registered: [info.magnolia.commands.MgnlCatalog: versionResources]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [exportYaml] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [import] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [markAsDeleted] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [restorePreviousVersion] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [export] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [delete] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Catalog [templating] registered: [info.magnolia.commands.MgnlCatalog: versionTemplate]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Adding new command [sendMail] to already registered catalog [default]...
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:41 -- Catalog [website] registered: [info.magnolia.commands.MgnlCatalog: activate, deactivate]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:42 -- Catalog [dam] registered: [info.magnolia.commands.MgnlCatalog: markAssetFolderAsDeleted, importAssetZip]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:42 -- Catalog [forum] registered: [info.magnolia.commands.MgnlCatalog: invalidateMessage, validateMessage, activate, lockForum, lockThread, deleteForum, deleteMessage, deleteThread, unlockThread, unlockForum]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:42 -- Catalog [planet] registered: [info.magnolia.commands.MgnlCatalog: collectPlanetStatistics, generatePlanetData]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:43 -- Catalog [rss] registered: [info.magnolia.commands.MgnlCatalog: importRss]
+INFO   info.magnolia.commands.CommandsManager 30.01.2017 23:31:43 -- Catalog [categorization] registered: [info.magnolia.commands.MgnlCatalog: generateCategories, removeCategories]
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 30.01.2017 23:31:43 -- Loading VirtualURIMapping from /modules/activation/virtualURIMapping/3_0_to_3_5
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 30.01.2017 23:31:43 -- Loading VirtualURIMapping from /modules/ui-admincentral/virtualURIMapping/default
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 30.01.2017 23:31:43 -- Loading VirtualURIMapping from /modules/google-sitemap/virtualURIMapping/siteMaps
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 30.01.2017 23:31:43 -- Loading VirtualURIMapping from /modules/rssaggregator/virtualURIMapping/rssFeeds
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 30.01.2017 23:31:43 -- Loading VirtualURIMapping from /modules/rssaggregator/virtualURIMapping/planetFeeds
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 30.01.2017 23:31:43 -- Loading VirtualURIMapping from /modules/rssaggregator/virtualURIMapping/categoryFeeds
+INFO   info.magnolia.cms.beans.config.VirtualURIManager 30.01.2017 23:31:43 -- Loading VirtualURIMapping from /modules/tours/virtualURIMapping/toursMapping
+INFO   info.magnolia.cms.filters.FilterManagerImpl 30.01.2017 23:31:54 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:54 -- Initializing filter [context]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:54 -- Initializing filter [contentType]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:54 -- Initializing filter [multipartRequest]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [unicodeNormalization]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [login]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [activation]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [gzip]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [channel]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [siteMerge]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [logout]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [securityCallback]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [csrfSecurity]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [uriSecurity]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [range]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [i18n]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:55 -- Initializing filter [cache]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:56 -- Initializing filter [virtualURI]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:56 -- Initializing filter [servlets]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:56 -- Initializing filter [Wrapper for DamDownloadServlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:31:56 -- Initializing filter [Wrapper for RestDispatcherServlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:00 -- Initializing filter [Wrapper for ImagingServlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:00 -- Initializing filter [Wrapper for ResourcesServlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:00 -- Initializing filter [Wrapper for AdminCentral servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [Wrapper for FeedSyndicationServlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [cms]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [repositoryMapping]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [contentSecurity]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [aggregator]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [modelExecution]
+INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [rendering]
+INFO   info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 30.01.2017 23:32:03 -- Applied YAML file based decorator from [/tours/decorations/travel-demo/templates/pages/home.areas.main.availableComponents.yaml] to definition provider [[template] definition [home] with reference id: [travel-demo:pages/home] from module [travel-demo] at [pages/home]]

@@ -1,0 +1,39 @@
+30-Jan-2017 23:14:49.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.5
+30-Jan-2017 23:14:49.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 19:51:16 UTC
+30-Jan-2017 23:14:49.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.5.0
+30-Jan-2017 23:14:49.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+30-Jan-2017 23:14:49.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+30-Jan-2017 23:14:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jan-2017 23:14:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+30-Jan-2017 23:14:49.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Jan-2017 23:14:49.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2017 23:14:49.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5
+30-Jan-2017 23:14:49.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5
+30-Jan-2017 23:14:49.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jan-2017 23:14:49.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\conf\logging.properties
+30-Jan-2017 23:14:49.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2017 23:14:49.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=256m
+30-Jan-2017 23:14:49.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+30-Jan-2017 23:14:49.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+30-Jan-2017 23:14:49.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Jan-2017 23:14:49.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5
+30-Jan-2017 23:14:49.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5
+30-Jan-2017 23:14:49.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\temp
+30-Jan-2017 23:14:49.579 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static; C:\JDBC;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\apache-maven-3.3.9\bin\;C:\php;C:\Users\Gvozd\AppData\Local\GitHub\PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\ant\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\Gvozd\AppData\Local\atom\bin;.
+30-Jan-2017 23:14:50.454 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jan-2017 23:14:52.175 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2017 23:14:52.194 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Jan-2017 23:14:52.216 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2017 23:14:52.217 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3961 ms
+30-Jan-2017 23:14:52.392 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jan-2017 23:14:52.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.5
+30-Jan-2017 23:14:52.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaAuthor
+30-Jan-2017 23:16:10.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaAuthor has finished in 77,854 ms
+30-Jan-2017 23:16:10.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic
+30-Jan-2017 23:17:13.479 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic has finished in 63,074 ms
+30-Jan-2017 23:17:13.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\ROOT
+30-Jan-2017 23:17:13.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\ROOT has finished in 134 ms
+30-Jan-2017 23:17:13.740 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+30-Jan-2017 23:17:13.763 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+30-Jan-2017 23:17:13.767 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 141549 ms
+30-Jan-2017 23:17:35.961 INFO [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [:0.48457933078042237:myFilter=0; __session:0.48457933078042237:myAsc=desc; __session:0.48457933078042237:myField=1] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.

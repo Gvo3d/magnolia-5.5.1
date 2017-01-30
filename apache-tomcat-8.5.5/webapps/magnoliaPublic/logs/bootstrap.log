@@ -1,0 +1,27 @@
+INFO  30.01.2017 23:23:49  Trying to initialize repositories from: 
+    C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic\WEB-INF\bootstrap\public
+    C:\Users\Gvozd\GitRepositories\magnolia-5.5.1\apache-tomcat-8.5.5\webapps\magnoliaPublic\WEB-INF\bootstrap\common
+INFO  30.01.2017 23:23:49  Repository [dam] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [forum] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [contacts] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [usergroups] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [products] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [templates] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [magnolia-mgnlSystem] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [scripts] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [tours] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [website] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [magnolia-mgnlVersion] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [userroles] has been initialized.
+INFO  30.01.2017 23:23:49  Repository [googleSitemaps] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [profiles] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [users] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [tasks] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [imaging] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [category] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [rss] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [default] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [resources] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [messages] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [config] has been initialized.
+INFO  30.01.2017 23:23:50  Repository [dms] has been initialized.
