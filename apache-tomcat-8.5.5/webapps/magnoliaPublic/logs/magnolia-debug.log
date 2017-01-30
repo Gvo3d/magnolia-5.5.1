@@ -437,3 +437,5 @@ INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initiali
 INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [modelExecution]
 INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:32:01 -- Initializing filter [rendering]
 INFO   info.magnolia.config.source.yaml.decoration.YamlDefinitionDecorator 30.01.2017 23:32:03 -- Applied YAML file based decorator from [/tours/decorations/travel-demo/templates/pages/home.areas.main.availableComponents.yaml] to definition provider [[template] definition [home] with reference id: [travel-demo:pages/home] from module [travel-demo] at [pages/home]]
+INFO   info.magnolia.module.scheduler.CommandJob 31.01.2017 00:00:00 -- Starting job [cleanTempFiles]...
+INFO   info.magnolia.module.scheduler.CommandJob 31.01.2017 00:00:00 -- Job executed successfully [cleanTempFiles]

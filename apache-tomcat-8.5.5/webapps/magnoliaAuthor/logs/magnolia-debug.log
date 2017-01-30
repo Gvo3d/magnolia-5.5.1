@@ -455,3 +455,5 @@ INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:34:06 -- Initiali
 INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:34:06 -- Initializing filter [modelExecution]
 INFO   info.magnolia.cms.filters.CompositeFilter 30.01.2017 23:34:06 -- Initializing filter [rendering]
 WARN   info.magnolia.module.cache.filter.CacheFilter 30.01.2017 23:34:53 -- The following URL took longer than 10 seconds (14064 ms) to render. This might cause timeout exceptions on other requests to the same URI. [url=http://localhost:8080/magnoliaAuthor/.magnolia/admincentral]
+INFO   info.magnolia.module.scheduler.CommandJob 31.01.2017 00:00:01 -- Starting job [cleanTempFiles]...
+INFO   info.magnolia.module.scheduler.CommandJob 31.01.2017 00:00:01 -- Job executed successfully [cleanTempFiles]
